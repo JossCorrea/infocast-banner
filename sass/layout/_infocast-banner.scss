@@ -1,0 +1,12 @@
+.infocast-banner{
+    background-image: url(../assets/imgs/header.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 90% 96%, 88% 100%, 67% 100%, 64% 93%, 0 93%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 90% 96%, 88% 100%, 67% 100%, 64% 93%, 0 93%);
+    
+    & header{
+        margin: 0 10%;
+    }
+}
